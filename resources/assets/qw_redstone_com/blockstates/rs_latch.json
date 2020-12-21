@@ -1,0 +1,40 @@
+{
+  "multipart": [
+    { "when": { "facing":"north", "output": 1 } ,
+      "apply": { "model": "qw_redstone_com:block/rs_latch_1", "y": 0 }
+    },
+    { "when": { "facing":"east", "output": 1 } ,
+      "apply": { "model": "qw_redstone_com:block/rs_latch_1", "y": 90 }
+    },
+    { "when": { "facing":"south", "output": 1 } ,
+      "apply": { "model": "qw_redstone_com:block/rs_latch_1", "y": 180 }
+    },
+    { "when": { "facing":"west", "output": 1 } ,
+      "apply": { "model": "qw_redstone_com:block/rs_latch_1", "y": 270 }
+    },
+    { "when": { "facing":"north", "output": 4 } ,
+      "apply": { "model": "qw_redstone_com:block/rs_latch_4", "y": 0 }
+    },
+    { "when": { "facing":"east", "output": 4 } ,
+      "apply": { "model": "qw_redstone_com:block/rs_latch_4", "y": 90 }
+    },
+    { "when": { "facing":"south", "output": 4 } ,
+      "apply": { "model": "qw_redstone_com:block/rs_latch_4", "y": 180 }
+    },
+    { "when": { "facing":"west", "output": 4 } ,
+      "apply": { "model": "qw_redstone_com:block/rs_latch_4", "y": 270 }
+    },
+    { "when": { "facing":"north", "output": 5 } ,
+      "apply": { "model": "qw_redstone_com:block/rs_latch_5", "y": 0 }
+    },
+    { "when": { "facing":"east", "output": 5 } ,
+      "apply": { "model": "qw_redstone_com:block/rs_latch_5", "y": 90 }
+    },
+    { "when": { "facing":"south", "output": 5 } ,
+      "apply": { "model": "qw_redstone_com:block/rs_latch_5", "y": 180 }
+    },
+    { "when": { "facing":"west", "output": 5 } ,
+      "apply": { "model": "qw_redstone_com:block/rs_latch_5", "y": 270 }
+    }
+  ]
+}

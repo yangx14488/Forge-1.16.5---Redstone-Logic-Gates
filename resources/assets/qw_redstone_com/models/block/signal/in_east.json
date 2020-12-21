@@ -1,0 +1,18 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "qw_redstone_com:block/in",
+		"particle": "qw_redstone_com:block/in"
+	},
+	"elements": [
+		{
+			"from": [13, 2.01, 6],
+			"to": [16, 2.01, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [21, 10, 15]},
+			"faces": {
+				"up": {"uv": [13, 6, 16, 10], "texture": "#1"}
+			}
+		}
+	]
+}

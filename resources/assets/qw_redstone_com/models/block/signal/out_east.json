@@ -1,0 +1,7 @@
+{
+	"parent": "qw_redstone_com:block/signal/in_east",
+	"textures": {
+		"1": "qw_redstone_com:block/out",
+		"particle": "qw_redstone_com:block/out"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "qw_redstone_com:block/__default",
+	"textures": {
+		"1": "qw_redstone_com:block/and"
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "multipart": [
+    { "when": { "facing":"north", "output": 0 } ,
+      "apply": { "model": "qw_redstone_com:block/t_trigger_off", "y": 0 }
+    },
+    { "when": { "facing":"east", "output": 0 } ,
+      "apply": { "model": "qw_redstone_com:block/t_trigger_off", "y": 90 }
+    },
+    { "when": { "facing":"south", "output": 0 } ,
+      "apply": { "model": "qw_redstone_com:block/t_trigger_off", "y": 180 }
+    },
+    { "when": { "facing":"west", "output": 0 } ,
+      "apply": { "model": "qw_redstone_com:block/t_trigger_off", "y": 270 }
+    },
+    { "when": { "facing":"north", "output": 1 } ,
+      "apply": { "model": "qw_redstone_com:block/t_trigger", "y": 0 }
+    },
+    { "when": { "facing":"east", "output": 1 } ,
+      "apply": { "model": "qw_redstone_com:block/t_trigger", "y": 90 }
+    },
+    { "when": { "facing":"south", "output": 1 } ,
+      "apply": { "model": "qw_redstone_com:block/t_trigger", "y": 180 }
+    },
+    { "when": { "facing":"west", "output": 1 } ,
+      "apply": { "model": "qw_redstone_com:block/t_trigger", "y": 270 }
+    }
+  ]
+}

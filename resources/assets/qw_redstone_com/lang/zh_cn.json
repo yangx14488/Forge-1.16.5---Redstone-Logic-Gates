@@ -1,0 +1,9 @@
+{
+
+  "block.qw_redstone_com.and" : "逻辑门：与" ,
+  "block.qw_redstone_com.or" : "逻辑门：或",
+  "block.qw_redstone_com.not" : "逻辑门：非",
+  "block.qw_redstone_com.xor" : "逻辑门：异或",
+  "block.qw_redstone_com.rs_latch" : "逻辑门 RS锁存器",
+  "block.qw_redstone_com.t_trigger" : "逻辑门 T触发器"
+}
