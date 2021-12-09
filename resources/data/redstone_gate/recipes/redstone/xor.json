@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "redstone_gate:redstone/com_board" },
+    { "item": "minecraft:gold_nugget" },
+    { "item": "minecraft:redstone_torch" },
+    { "item": "minecraft:redstone_torch" },
+    { "item": "minecraft:lapis_lazuli" }
+  ],
+  "result": {
+    "item": "redstone_gate:redstone/xor",
+    "count": 1
+  }
+}

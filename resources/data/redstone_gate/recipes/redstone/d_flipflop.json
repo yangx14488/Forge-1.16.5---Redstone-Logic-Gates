@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "redstone_gate:redstone/com_board" },
+    { "item": "minecraft:gold_ingot" },
+    { "item": "minecraft:green_dye" },
+    { "item": "minecraft:redstone_torch" },
+    { "item": "minecraft:lapis_lazuli" },
+    { "item": "minecraft:lapis_lazuli" },
+    { "item": "minecraft:redstone" }
+  ],
+  "result": {
+    "item": "redstone_gate:redstone/d_flipflop",
+    "count": 1
+  }
+}
