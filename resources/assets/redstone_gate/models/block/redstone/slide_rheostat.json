@@ -1,0 +1,85 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"2": "redstone_gate:block/redstone/io_torch",
+		"3": "redstone_gate:block/redstone/slide_rheostat",
+		"5": "redstone_gate:block/redstone/slide_rheostat_line",
+		"particle": "redstone_gate:block/redstone/slide_rheostat"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0.5, 0, 8.5, 1], "rotation": 180, "texture": "#3"},
+				"east": {"uv": [8, 0.5, 9, 8.5], "rotation": 90, "texture": "#3"},
+				"south": {"uv": [0.5, 8, 8.5, 9], "rotation": 180, "texture": "#3"},
+				"west": {"uv": [0, 0.5, 1, 8.5], "rotation": 270, "texture": "#3"},
+				"up": {"uv": [0.5, 0.5, 8.5, 8.5], "texture": "#3"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"name": "torch_line",
+			"from": [0, 2.01, 0],
+			"to": [6, 2.01, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 6, 16], "texture": "#5", "tintindex": 1}
+			}
+		},
+		{
+			"name": "output_line",
+			"from": [6, 2.01, 0],
+			"to": [10, 2.01, 11],
+			"faces": {
+				"up": {"uv": [6, 0, 10, 11], "texture": "#5", "tintindex": 100}
+			}
+		},
+		{
+			"from": [1, 1, 7],
+			"to": [3, 5, 9],
+			"faces": {
+				"north": {"uv": [7, 10, 9, 14], "texture": "#2"},
+				"east": {"uv": [7, 10, 9, 14], "texture": "#2"},
+				"south": {"uv": [7, 10, 9, 14], "texture": "#2"},
+				"west": {"uv": [7, 10, 9, 14], "texture": "#2"}
+			}
+		},
+		{
+			"name": "torch",
+			"from": [1, 5, 7],
+			"to": [3, 7, 9],
+			"faces": {
+				"north": {"uv": [7, 8, 9, 10], "texture": "#2", "tintindex": 1},
+				"east": {"uv": [7, 8, 9, 10], "texture": "#2", "tintindex": 1},
+				"south": {"uv": [7, 8, 9, 10], "texture": "#2", "tintindex": 1},
+				"west": {"uv": [7, 8, 9, 10], "texture": "#2", "tintindex": 1},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#2", "tintindex": 1}
+			}
+		},
+		{
+			"name": "south",
+			"from": [7, 1, 13],
+			"to": [9, 3, 15],
+			"faces": {
+				"north": {"uv": [7, 8, 9, 10], "texture": "#2", "tintindex": 102},
+				"east": {"uv": [7, 8, 9, 10], "texture": "#2", "tintindex": 102},
+				"south": {"uv": [7, 8, 9, 10], "texture": "#2", "tintindex": 102},
+				"west": {"uv": [7, 8, 9, 10], "texture": "#2", "tintindex": 102},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#2", "tintindex": 102}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		2,
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [3, 4, 5]
+		}
+	]
+}

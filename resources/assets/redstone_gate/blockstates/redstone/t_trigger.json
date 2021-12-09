@@ -1,0 +1,40 @@
+{
+  "multipart": [
+    { "when": { "facing": "north" } ,
+      "apply": { "model": "redstone_gate:block/redstone/t_trigger", "y": 0 }
+    } ,
+    { "when": { "facing": "east" } ,
+      "apply": { "model": "redstone_gate:block/redstone/t_trigger", "y": 90 }
+    } ,
+    { "when": { "facing": "south" } ,
+      "apply": { "model": "redstone_gate:block/redstone/t_trigger", "y": 180 }
+    } ,
+    { "when": { "facing": "west" } ,
+      "apply": { "model": "redstone_gate:block/redstone/t_trigger", "y": 270 }
+    },
+    { "when": { "facing": "north", "io" : "1|3|9|11" } ,
+      "apply": { "model": "redstone_gate:block/redstone/t_trigger_on", "y": 0 }
+    } ,
+    { "when": { "facing": "east", "io" : "1|3|9|11" } ,
+      "apply": { "model": "redstone_gate:block/redstone/t_trigger_on", "y": 90 }
+    } ,
+    { "when": { "facing": "south", "io" : "1|3|9|11" } ,
+      "apply": { "model": "redstone_gate:block/redstone/t_trigger_on", "y": 180 }
+    } ,
+    { "when": { "facing": "west", "io" : "1|3|9|11" } ,
+      "apply": { "model": "redstone_gate:block/redstone/t_trigger_on", "y": 270 }
+    },
+    { "when": { "facing": "north", "io" : "4|6|12|14" } ,
+      "apply": { "model": "redstone_gate:block/redstone/t_trigger_off", "y": 0 }
+    } ,
+    { "when": { "facing": "east", "io" : "4|6|12|14" } ,
+      "apply": { "model": "redstone_gate:block/redstone/t_trigger_off", "y": 90 }
+    } ,
+    { "when": { "facing": "south", "io" : "4|6|12|14" } ,
+      "apply": { "model": "redstone_gate:block/redstone/t_trigger_off", "y": 180 }
+    } ,
+    { "when": { "facing": "west", "io" : "4|6|12|14" } ,
+      "apply": { "model": "redstone_gate:block/redstone/t_trigger_off", "y": 270 }
+    }
+  ]
+}

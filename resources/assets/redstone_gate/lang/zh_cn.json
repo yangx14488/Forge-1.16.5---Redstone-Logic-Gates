@@ -1,0 +1,35 @@
+{
+
+  "item.redstone_gate.redstone.com_board": "红石复合板",
+
+  "block.redstone_gate.redstone.and": "与门",
+  "block.redstone_gate.redstone.or": "或门",
+  "block.redstone_gate.redstone.not": "非门",
+  "block.redstone_gate.redstone.xor": "异或门",
+  "block.redstone_gate.redstone.d_flipflop": "D触发器",
+  "block.redstone_gate.redstone.rs_trigger": "RS触发器",
+  "block.redstone_gate.redstone.t_trigger": "T触发器",
+  "block.redstone_gate.redstone.counter": "计数器",
+  "block.redstone_gate.redstone.slide_rheostat": "滑动变阻器",
+
+  "info.redstone_gate.and": "全部输入时，则输出",
+  "info.redstone_gate.or": "任意输入时，则输出",
+  "info.redstone_gate.not": "没有输入时，则输出",
+  "info.redstone_gate.xor": "输入不一致时，则输出",
+  "info.redstone_gate.d_flipflop": "控制端输入时，输出取决于输入",
+  "info.redstone_gate.rs_trigger": "输入时，当前方向输出，对向关闭输出",
+  "info.redstone_gate.t_trigger": "输入时，反转输出",
+  "info.redstone_gate.counter": "输出取决于控制端输入",
+  "info.redstone_gate.slide_rheostat": "输入时，输出为输入的减法，否则为0~15",
+
+  "io.redstone_gate": "接口定义",
+  "io.redstone_gate.gray": "§7灰色§7   输出",
+  "io.redstone_gate.blue": "§9蓝色§7   输入",
+
+  "io.redstone_gate.d_flipflop.green": "§绿色§7   控制端",
+  "io.redstone_gate.counter.green": "§a绿色§7   加1",
+  "io.redstone_gate.counter.orange": "§6橙色§7   减1",
+  "io.redstone_gate.counter.blue": "§9蓝色§7   清零"
+
+
+}

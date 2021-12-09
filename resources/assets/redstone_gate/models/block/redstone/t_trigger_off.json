@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"3": "block/lever",
+		"4": "block/cobblestone",
+		"particle": "redstone_gate:block/redstone/t_trigger"
+	},
+	"elements": [
+		{
+			"from": [6, 2, 5],
+			"to": [10, 4, 11],
+			"faces": {
+				"north": {"uv": [0, 4, 4, 6], "rotation": 180, "texture": "#4"},
+				"east": {"uv": [0, 0, 6, 2], "texture": "#4"},
+				"south": {"uv": [0, 0, 4, 2], "texture": "#4"},
+				"west": {"uv": [0, 0, 6, 2], "texture": "#4"},
+				"up": {"uv": [0, 0, 4, 6], "texture": "#4"}
+			}
+		},
+		{
+			"from": [7, 3, 7],
+			"to": [9, 8, 9],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7, 3, 7]},
+			"faces": {
+				"north": {"uv": [7, 6, 9, 11], "texture": "#3"},
+				"east": {"uv": [7, 6, 9, 11], "texture": "#3"},
+				"south": {"uv": [7, 6, 9, 11], "texture": "#3"},
+				"west": {"uv": [7, 6, 9, 11], "texture": "#3"},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#3"}
+			}
+		}
+	]
+}

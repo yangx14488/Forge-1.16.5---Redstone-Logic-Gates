@@ -1,0 +1,64 @@
+{
+  "multipart": [
+    { "when": { "facing": "north" } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat", "y": 0 }
+    } ,
+    { "when": { "facing": "east" } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat", "y": 90 }
+    } ,
+    { "when": { "facing": "south" } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat", "y": 180 }
+    } ,
+    { "when": { "facing": "west" } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat", "y": 270 }
+    },
+    { "when": { "rotate": 0 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_0", "y": 0 }
+    },
+    { "when": { "rotate": 1 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_225", "y": 0 }
+    },
+    { "when": { "rotate": 2 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_450", "y": 0 }
+    },
+    { "when": { "rotate": 3 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_675", "y": 0 }
+    },
+    { "when": { "rotate": 4 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_0", "y": 90 }
+    },
+    { "when": { "rotate": 5 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_225", "y": 90 }
+    },
+    { "when": { "rotate": 6 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_450", "y": 90 }
+    },
+    { "when": { "rotate": 7 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_675", "y": 90 }
+    },
+    { "when": { "rotate": 8 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_0", "y": 180 }
+    },
+    { "when": { "rotate": 9 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_225", "y": 180 }
+    },
+    { "when": { "rotate": 10 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_450", "y": 180 }
+    },
+    { "when": { "rotate": 11 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_675", "y": 180 }
+    },
+    { "when": { "rotate": 12 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_0", "y": 270 }
+    },
+    { "when": { "rotate": 13 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_225", "y": 270 }
+    },
+    { "when": { "rotate": 14 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_450", "y": 270 }
+    },
+    { "when": { "rotate": 15 } ,
+      "apply": { "model": "redstone_gate:block/redstone/slide_rheostat_brush_675", "y": 270 }
+    }
+  ]
+}

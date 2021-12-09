@@ -1,0 +1,16 @@
+{
+  "multipart": [
+    { "when": { "facing":"north" } ,
+      "apply": { "model": "redstone_gate:block/redstone/random", "y": 0 }
+    },
+    { "when": { "facing":"east" } ,
+      "apply": { "model": "redstone_gate:block/redstone/random", "y": 90 }
+    },
+    { "when": { "facing":"south" } ,
+      "apply": { "model": "redstone_gate:block/redstone/random", "y": 180 }
+    },
+    { "when": { "facing":"west" } ,
+      "apply": { "model": "redstone_gate:block/redstone/random", "y": 270 }
+    }
+  ]
+}

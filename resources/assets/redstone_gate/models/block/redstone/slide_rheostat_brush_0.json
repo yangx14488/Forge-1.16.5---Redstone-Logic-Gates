@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "redstone_gate:block/redstone/io_torch",
+		"particle": "redstone_gate:block/redstone/slide_rheostat"
+	},
+	"elements": [
+		{
+			"from": [7.5, 1, 7.5],
+			"to": [8.5, 3, 8.5],
+			"faces": {
+				"north": {"uv": [7, 10, 8, 12], "texture": "#2"},
+				"east": {"uv": [7, 10, 8, 12], "texture": "#2"},
+				"south": {"uv": [7, 10, 8, 12], "texture": "#2"},
+				"west": {"uv": [7, 10, 8, 12], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7, 3, 3],
+			"to": [9, 4, 9],
+			"faces": {
+				"north": {"uv": [8, 10, 9, 12], "rotation": 270, "texture": "#2"},
+				"east": {"uv": [7, 10, 8, 16], "rotation": 270, "texture": "#2"},
+				"south": {"uv": [8, 14, 9, 16], "rotation": 90, "texture": "#2"},
+				"west": {"uv": [8, 10, 9, 16], "rotation": 270, "texture": "#2"},
+				"up": {"uv": [7, 10, 9, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [7, 10, 9, 16], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"name": "brush",
+			"from": [7.5, 2, 3.5],
+			"to": [8.5, 3, 6.5],
+			"faces": {
+				"north": {"uv": [7, 6, 8, 7], "rotation": 90, "texture": "#2", "tintindex": 100},
+				"east": {"uv": [7, 6, 8, 9], "rotation": 90, "texture": "#2", "tintindex": 100},
+				"south": {"uv": [7, 6, 8, 7], "rotation": 90, "texture": "#2", "tintindex": 100},
+				"west": {"uv": [7, 6, 8, 9], "rotation": 90, "texture": "#2", "tintindex": 100},
+				"up": {"uv": [7, 6, 8, 9], "texture": "#2", "tintindex": 100}
+			}
+		}
+	]
+}
