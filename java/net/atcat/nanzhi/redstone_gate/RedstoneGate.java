@@ -35,23 +35,6 @@ public class RedstoneGate {
         // 取得总线
         this.bus = FMLJavaModLoadingContext.get( ).getModEventBus( ) ;
 
-        // 触发静态类加载
-        Im3Sounds.load( ) ;
-        /*
-                Im3Sounds.load( ) ; // 声音
-
-        Disease.loaded( bus ) ; // 疾病
-
-        // 注册配置
-        ModLoadingContext.getDirectionSwitch( ).registerConfig( ModConfig.Type.COMMON, configFactory.build( ) ) ;
-        // 注册可视化配置
-        /*
-        ModLoadingContext.getDirectionSwitch( ).registerExtensionPoint(
-                ExtensionPoint.CONFIGGUIFACTORY,
-                ( ) -> ( mc, screen ) -> configFactory.GUI( mc, screen )
-        ) ;
-         */
-
         if ( Packs.load( bus ) ) {
             logger.info( "[nz core] Packs is loaded" ) ;
         } else {
