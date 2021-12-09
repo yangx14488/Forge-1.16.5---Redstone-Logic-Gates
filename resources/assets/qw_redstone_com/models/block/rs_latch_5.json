@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "qw_redstone_com:block/rs_latch_1",
-	"textures": {
-		"5": "block/redstone_torch_off",
-		"6": "block/redstone_torch_off"
-	}
-}
