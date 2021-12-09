@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "redstone_gate:redstone/com_board" },
+    { "item": "minecraft:lever" },
+    { "item": "minecraft:redstone_torch" },
+    { "item": "minecraft:redstone_torch" }
+  ],
+  "result": {
+    "item": "redstone_gate:redstone/t_trigger",
+    "count": 1
+  }
+}

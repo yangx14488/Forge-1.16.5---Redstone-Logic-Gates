@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "redstone_gate:redstone/not" },
+    { "item": "redstone_gate:redstone/and" },
+    { "item": "redstone_gate:redstone/and" },
+    { "item": "redstone_gate:redstone/or" }
+  ],
+  "result": {
+    "item": "redstone_gate:redstone/xor",
+    "count": 1
+  }
+}
