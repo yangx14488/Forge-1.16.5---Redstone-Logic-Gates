@@ -3,8 +3,6 @@ package net.atcat.nanzhi.redstone_gate.pack;
 import net.atcat.nanzhi.redstone_gate.pack.redstone.Redstone;
 import net.minecraftforge.eventbus.api.IEventBus;
 
-// 木棍也可以压弹匣里，但打这玩意绝对会卡壳，自己修去
-
 public class Packs {
 
     // 包管理器
